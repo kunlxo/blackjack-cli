@@ -3,15 +3,11 @@
 A simple, terminal-based Blackjack game written in Python.
 It follows standard casino rules and is built with clean, modular code so it’s easy to read, test, and extend.
 
----
-
 ## Overview
 
 This project started as a small experiment in building a Blackjack engine that separates game logic from user interaction.
 It uses object-oriented design with distinct classes for the deck, dealer, player, and game engine.
 The CLI layer only handles input/output, keeping the core logic testable and reusable.
-
----
 
 ## Features
 
@@ -20,8 +16,6 @@ The CLI layer only handles input/output, keeping the core logic testable and reu
 * CLI interface for player input (`hit`, `stand`, `double`, `quit`)
 * Support for multiple decks and customizable chip count
 * Clean, readable structure
-
----
 
 ## How to Run
 
@@ -33,8 +27,6 @@ cd blackjack-cli
 python main.py
 ```
 
----
-
 ## Controls
 
 * **h** – Hit
@@ -43,8 +35,6 @@ python main.py
 * **q** – Quit round or exit game
 
 You’ll start with a set number of chips. Place bets each round and see how long you can stay alive.
-
----
 
 ## Example
 
@@ -64,8 +54,6 @@ Dealer: K♣ 9♦              19
 You win!
 Chips remaining: 115.0
 ```
-
----
 
 ## Project Structure
 
